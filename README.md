@@ -12,8 +12,17 @@ Linkclump was shut down in December 2024.
 
 > This extension is no longer available because it doesn't follow best practices for Chrome extensions.  
 
+The author has explicitly stated that they will not follow up on this matter.  
+https://github.com/benblack86/linkclump/issues/250
+
+> Chrome is evolving, and it's time to retire Linkclump. While I haven't officially endorsed an alternative, I encourage you to research and choose a replacement that best fits your needs.
+
+> 
+
+Threfore,
+
 * Need alternatives
-* Threfore, devreloped myself
+* <u>devreloped myself</u>
 
 ## Features
 

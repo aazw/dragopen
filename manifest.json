@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "DragOpen",
+  "version": "1.0.0",
+  "description": "linkclump alternative",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "extension.js"
+      ],
+      "css": [
+        "extension.css"
+      ]
+    }
+  ]
+}

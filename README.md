@@ -17,8 +17,6 @@ https://github.com/benblack86/linkclump/issues/250
 
 > Chrome is evolving, and it's time to retire Linkclump. While I haven't officially endorsed an alternative, I encourage you to research and choose a replacement that best fits your needs.
 
-> 
-
 Threfore,
 
 * Need alternatives

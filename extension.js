@@ -16,7 +16,7 @@ document.addEventListener('mousedown', (e) => {
     // 選択を無効化
     document.onselectstart = () => false;
 
-    // 昔の矩形が残ってしまってたら削除
+    // 昔の矩形がもし残ってしまっていたら削除 (フェールソフト実装の1つ)
     if (selectionBox) {
         // 矩形を削除
         document.body.removeChild(selectionBox);

@@ -1,8 +1,7 @@
-# DragOpen
+# DragOpen - Linkclump alternative
 
 Open multiple selected links at once by dragging (Shift+Left-Drag).
 
-**Linkclump alternative**
 
 ## Backgrounds
 

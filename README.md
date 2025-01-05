@@ -2,6 +2,7 @@
 
 Open multiple selected links at once by dragging (Shift+Left-Drag).
 
+This project started on January 2, 2025.
 
 ## Backgrounds
 

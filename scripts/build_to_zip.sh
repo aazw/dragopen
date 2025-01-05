@@ -15,5 +15,8 @@ zip ./build/dragopen \
     background.js \
     extension.css \
     extension.js \
-    icons \
+    icons/icon016.png \
+    icons/icon032.png \
+    icons/icon048.png \
+    icons/icon128.png \
     manifest.json

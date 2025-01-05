@@ -1,6 +1,8 @@
 # DragOpen
 
-Linkclump alternative
+Open multiple selected links at once by dragging (Shift+Left-Drag).
+
+**Linkclump alternative**
 
 ## Backgrounds
 
@@ -28,3 +30,13 @@ Threfore,
 
    1. Draw a rectangle by dragging the mouse
    1. Open all the links overlapping the drawn rectangle at once
+
+
+## Memo
+
+* permissons
+  * https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=ja
+
+* host permissions (ホスト権限)
+  * https://developer.chrome.com/docs/extensions/develop/concepts/declare-permissions?hl=ja#host-permissions
+  * https://developer.chrome.com/docs/extensions/develop/concepts/match-patterns?hl=ja

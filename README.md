@@ -4,6 +4,21 @@ Open multiple selected links at once by dragging (Shift+Left-Drag).
 
 This project started on January 2, 2025.
 
+
+## Chrome Web Store
+
+https://chromewebstore.google.com/detail/dragopen/bohednalfdagplahacjafjfkjaadhpjc
+
+Current version: v1.0.0
+
+
+## GitHub Pages
+
+https://aazw.github.io/dragopen/
+
+Nothing
+
+
 ## Backgrounds
 
 Linkclump  

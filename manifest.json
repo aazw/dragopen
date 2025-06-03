@@ -15,15 +15,9 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://*/*"
-      ],
-      "js": [
-        "extension.js"
-      ],
-      "css": [
-        "extension.css"
-      ]
+      "matches": ["https://*/*"],
+      "js": ["extension.js"],
+      "css": ["extension.css"]
     }
   ]
 }

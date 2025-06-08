@@ -10,8 +10,14 @@ cd ${SCRIPT_DIR}/..
 # 出力先ディレクトリ作成
 mkdir -p ./build
 
+# カレントディレクトリ変更
+cd extension
+
+# バージョン取得
+manifest_version=$(cat manifest.json | jq -r ".version")
+
 # zipファイルに圧縮
-zip ./build/dragopen \
+zip ../build/dragopen-${manifest_version}.zip \
 	background.js \
 	extension.css \
 	extension.js \
@@ -21,4 +27,4 @@ zip ./build/dragopen \
 	icons/icon128.png \
 	manifest.json
 
-ls -lf build/
+ls -lf ../build/

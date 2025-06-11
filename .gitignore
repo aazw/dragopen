@@ -6,8 +6,8 @@ build
 build/
 build/*
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,yarn
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,windows,yarn
+# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node,yarn
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,node,yarn
 
 ### Linux ###
 *~
@@ -240,4 +240,4 @@ $RECYCLE.BIN/
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,yarn
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node,yarn

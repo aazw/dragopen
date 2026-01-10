@@ -1,6 +1,6 @@
 {
-  "name": "vsc-dragopen",
-  "image": "aazw/devcontainers-devbox-js:1",
+  "name": "vsc-dragopen-${localWorkspaceFolderBasename}-${devcontainerId}",
+  "image": "aazw/devcontainers-devbox-js:4",
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
       "version": "latest",
@@ -23,9 +23,11 @@
       }
     }
   },
+  // "workspaceMount": "source=${localWorkspaceFolder}/..,target=/workspaces,type=bind,consistency=cached",
+  // "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [
     {
-      "source": "${localWorkspaceFolder}/.claude",
+      "source": "${localWorkspaceFolder}/.claude-home-cache",
       "target": "/home/vscode/.claude",
       "type": "bind"
     }
@@ -39,9 +41,9 @@
   },
   "runArgs": [
     "--name",
-    "vsc-dragopen",
+    "vsc-dragopen-${localWorkspaceFolderBasename}-${devcontainerId}",
     "--add-host",
     "host.docker.internal:host-gateway"
   ],
-  "postAttachCommand": "bun install"
+  "postAttachCommand": "task init"
 }

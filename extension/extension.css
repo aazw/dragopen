@@ -1,11 +1,11 @@
 .dragopen-selection-box {
-    position: absolute;
-    border: 2px dashed #007bff;
-    background-color: rgba(0, 123, 255, 0.1);
-    pointer-events: none;
-    z-index: 10000;
+	position: absolute;
+	border: 2px dashed #007bff;
+	background-color: rgba(0, 123, 255, 0.1);
+	pointer-events: none;
+	z-index: 10000;
 }
 
 a.dragopen-selected {
-    box-shadow: inset 0 0 0 1px red;
+	box-shadow: inset 0 0 0 1px red;
 }

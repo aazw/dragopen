@@ -1,6 +1,6 @@
 {
   "name": "vsc-dragopen",
-  "image": "aazw/devcontainers-devbox-js:1",
+  "image": "aazw/devcontainers-devbox-js:4",
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
       "version": "latest",

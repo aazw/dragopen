@@ -40,7 +40,7 @@
       "type": "bind"
     }
   ],
-  // コンテナ起動時・初期化処理のユーザ. docker psできるようにするために必要
+  // containerUser は、コンテナ起動時・初期化処理のユーザ. docker psできるようにするために必要
   "containerUser": "root",
   "remoteUser": "vscode",
   "remoteEnv": {
